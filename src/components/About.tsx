@@ -25,7 +25,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Me</span>
+            About <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Passionate about turning complex data into actionable insights
@@ -58,7 +58,7 @@ const About = () => {
                     viewport={{ once: true }}
                     className="text-center"
                   >
-                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-3 rounded-full w-fit mx-auto mb-2">
+                    <div className="bg-gradient-to-r from-purple-500 to-blue-500 p-3 rounded-full w-fit mx-auto mb-2">
                       <stat.icon size={24} className="text-white" />
                     </div>
                     <div className="text-2xl font-bold text-white">{stat.value}</div>
@@ -72,7 +72,7 @@ const About = () => {
                 download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center space-x-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
+                className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
               >
                 <Download size={20} />
                 <span>Download Resume</span>
@@ -92,7 +92,7 @@ const About = () => {
               
               {skillCategories.map((category) => (
                 <div key={category} className="mb-6">
-                  <h4 className="text-lg font-semibold text-cyan-400 mb-3">{category}</h4>
+                  <h4 className="text-lg font-semibold text-blue-400 mb-3">{category}</h4>
                   <div className="space-y-3">
                     {skills
                       .filter(skill => skill.category === category)
@@ -115,7 +115,7 @@ const About = () => {
                               whileInView={{ width: `${skill.level}%` }}
                               transition={{ duration: 1, delay: 0.2 }}
                               viewport={{ once: true }}
-                              className="bg-gradient-to-r from-cyan-500 to-blue-500 h-2 rounded-full"
+                              className="bg-gradient-to-r from-purple-500 to-blue-500 h-2 rounded-full"
                             />
                           </div>
                         </motion.div>

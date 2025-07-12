@@ -79,7 +79,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Let's <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Connect</span>
+            Let's <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Ready to bring your next project to life? Let's discuss how we can work together.
@@ -150,7 +150,7 @@ const Contact = () => {
                   type="submit"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-cyan-500/25"
+                  className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-cyan-500/25"
                 >
                   <Send size={20} />
                   <span>Send Message</span>
@@ -186,7 +186,7 @@ const Contact = () => {
                     viewport={{ once: true }}
                     className="flex items-center space-x-4 p-4 bg-gray-800/30 rounded-lg border border-gray-700/50 hover:border-cyan-400/50 transition-all duration-300 hover:bg-gray-800/50 group"
                   >
-                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-3 rounded-full group-hover:scale-110 transition-transform duration-300">
+                    <div className="bg-gradient-to-r from-purple-500 to-blue-500 p-3 rounded-full group-hover:scale-110 transition-transform duration-300">
                       <info.icon size={20} className="text-white" />
                     </div>
                     <div>

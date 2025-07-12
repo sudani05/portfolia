@@ -28,7 +28,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-20 bg-gray-900 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(120,119,198,0.1),transparent)] opacity-50" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#2a2a2a] opacity-50" />
       
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
@@ -39,7 +39,7 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Featured <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Projects</span>
+            Featured <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Explore my latest work in AI, data science, and intelligent systems
@@ -59,7 +59,7 @@ const Projects = () => {
               variants={itemVariants}
               className="group relative"
             >
-              <div className="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700/50 hover:border-cyan-400/50 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/10">
+              <div className="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-400/50 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/10">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
@@ -68,7 +68,7 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-cyan-500/20 text-cyan-400 px-3 py-1 rounded-full text-sm font-medium border border-cyan-500/30">
+                    <span className="bg-blue-500/20 text-purple-400 px-3 py-1 rounded-full text-sm font-medium border border-cyan-500/30">
                       {project.category}
                     </span>
                   </div>
@@ -76,7 +76,7 @@ const Projects = () => {
 
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                    <h3 className="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">
                       {project.title}
                     </h3>
                     <div className="flex items-center space-x-2 text-gray-400 text-sm">
@@ -108,7 +108,7 @@ const Projects = () => {
                   <div className="flex items-center justify-between">
                     <Link
                       to={`/project/${project.id}`}
-                      className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
+                      className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-200 hover:to-blue-600 text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
                     >
                       <span>Case Study</span>
                       <ExternalLink size={16} />
@@ -130,7 +130,7 @@ const Projects = () => {
                           href={project.demo}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-gray-400 hover:text-cyan-400 transition-colors"
+                          className="text-gray-400 hover:text-purple-400 transition-colors"
                         >
                           <ExternalLink size={20} />
                         </a>
