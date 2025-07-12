@@ -46,13 +46,13 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="text-xl font-bold text-white hover:text-cyan-400 transition-colors">
+          <Link to="/" className="text-xl font-bold text-white hover:text-purple-400 transition-colors">
             Smit Sudani
           </Link>
           
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-white hover:text-cyan-400 transition-colors p-2 rounded-lg hover:bg-white/10"
+            className="text-white hover:text-purple-400 transition-colors p-2 rounded-lg hover:bg-white/10"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
